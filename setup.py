@@ -15,13 +15,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='lent',
-    maintainer_email='lent@todo.todo',
+    maintainer_email='camdala@tcd.ie',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [    
-            'streamer = ros_gui.publisher_member_function:main',
+            'streamer = ros_gui.streamer_function:main',
         ],
     },
 )
